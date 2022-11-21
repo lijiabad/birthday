@@ -11,8 +11,17 @@ $('#login-button').click(function (event) {
       location.href = "BirthdayCake.html";
     }, 2000);
   }
+  else if (userName == "李孟德" && pwd == "1999") {
+    event.preventDefault();
+    $('form').fadeOut(500);
+    $('.wrapper').addClass('form-success');
+    requestFullScreen();
+    setTimeout(function () {
+      location.href = "BirthdayCake.html";
+    }, 2000);
+  }
   else {
-    alert("Wrong Password");
+    alert("密码错误");
   }
 });
 
