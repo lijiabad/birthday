@@ -169,6 +169,16 @@
         <rect class="come" x="10" y="475.571" fill="#fefae9" width="180" height="4" />
     </svg>
 </div>
+<div class="name" id="name">
+  <h3 >李孟德</h3>
+</div>
+<script id="script_id">
+  function fun(){
+      var code = document.getElementById("script_id").innerHTML;
+      var div = document.getElementById("name");
+      div.innerHTML = code;
+  }
+</script>
 <div class="happy">
 	<img src="../img/HappyBirthday.png">
 </div>
@@ -206,7 +216,10 @@
   <script src='../js/jquery.js'></script>
   <!-- <script src="js/auto-play.js"></script> -->
   <!-- <script src="js/birthday-cake.js"></script> -->
-  <audio src="../music/2.mp3" autoplay="autoplay" loop="loop"/>
+  
+  <!--暂时关闭音乐-->
+  <!--<audio src="../music/2.mp3" autoplay="autoplay" loop="loop"/>-->
+  
 </body>
 
 </html>

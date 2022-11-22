@@ -20,7 +20,7 @@
 /*盒子*/
 .ly-box01 {
 	width:50px;
-	height:50px;
+	height:65px;
 	background-color:#FFF;
 	border-radius: 25px;
 	/* position: absolute;
@@ -210,7 +210,7 @@
 }
 .ly-stxt01 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 20px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
@@ -238,9 +238,10 @@
 
 .ly-stxt02 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
+	width: 300px;
 	left: 5%;
 	top: 5%;
 	margin-top:-71px;
@@ -267,9 +268,10 @@
 
 .ly-stxt03 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
+	width: 300px;
 	left: 5%;
 	top: 5%;
 	opacity: 0;
@@ -296,9 +298,10 @@
 
 .ly-stxt04 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
+	width: 300px;
 	left: 5%;
 	top: 5%;
 	opacity: 0;
@@ -325,9 +328,10 @@
 
 .ly-stxt05 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
+	width: 300px;
 	left: 5%;
 	top: 5%;
 	opacity: 0;
@@ -354,11 +358,12 @@
 
 .ly-stxt06 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
-  /* right: 5%; */
-  left: 5%;
+	width: 300px;
+  	/* right: 5%; */
+  	left: 5%;
 	top: 5%;
 	opacity: 0;
 	animation:ly-stxt06_move 15s;
@@ -383,7 +388,7 @@
 
 .ly-stxt07 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -413,7 +418,7 @@
 
 .ly-stxt08 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -442,7 +447,7 @@
 
 .ly-stxt09 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -471,7 +476,7 @@
 
 .ly-stxt10 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -485,7 +490,7 @@
 }
 .ly-stxt11 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -497,7 +502,7 @@
 }
 .ly-stxt12 {
 	font-family: Microsoft YaHei;
-	font-size: 24px;
+	font-size: 17px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
