@@ -170,8 +170,17 @@
     </svg>
 </div>
 <div class="name" id="name">
-  <h3 >李孟德</h3>
+  <h3>{{userName}}</h3>
+  <p>{{userName}}</p>
 </div>
+<script>
+  new Vue ({
+        el:'#name',
+        data:{
+          userName:'aaa'
+        }
+    })        
+</script>
 <script id="script_id">
   function fun(){
       var code = document.getElementById("script_id").innerHTML;

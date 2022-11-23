@@ -236,14 +236,14 @@ body {
 .button-style1 {
 	position:absolute;
 	left:15%;
-	animation:btn1 15s;
+	animation:btn1 8s;
 }
 .button-style2 {
 	position:absolute;
 	left:55%;
-	animation:btn2 15s;
+	animation:btn2 8s;
 }
-@keyframes btn1 {
+@keyframes btn1 {/*这里是对动画的定义，我们只需要定义几个关键帧，它会自动完成补间。*/
 	0% {
 		opacity:0;
 		left:43.5%;
@@ -254,7 +254,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		left:20%;
+		left:15%;
 	}
 }
 @-webkit-keyframes btn1 {
@@ -282,7 +282,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		left:68%;
+		left:55%;/*68*/
 	}
 }
 @-webkit-keyframes btn2 {
