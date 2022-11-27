@@ -166,7 +166,6 @@ body {
 	}
 }
 
-
 .happy {
 	position:absolute;
 	left:50%;
@@ -180,7 +179,7 @@ body {
 .name {
 	position:absolute;
 	font-family: 'SimSun';
-	left:67%;
+	left:73%;
 	top:49%;
 	margin-left: -119px;
 	opacity: 1;
@@ -235,7 +234,7 @@ body {
 }
 .button-style1 {
 	position:absolute;
-	left:15%;
+	left:10%;
 	animation:btn1 8s;
 }
 .button-style2 {
@@ -254,7 +253,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		left:15%;
+		left:10%;
 	}
 }
 @-webkit-keyframes btn1 {
@@ -306,8 +305,8 @@ body {
 	transition:all 0.5s;
 }
 .link1,.link2 {
-	width:170px;
-	height:60px;
+	width:160px;
+	height:50px;
 	border:2px solid #fff;
 	-webkit-border:1px solid #fff;
 	border-radius:30px;
