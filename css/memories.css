@@ -213,6 +213,16 @@
 	animation:btn1 15s;
 }
 
+.button-style-m02 {
+	position:absolute;
+	top:70%;
+	opacity:1;
+	z-index:100;
+	position:absolute;
+	left:20%;
+	animation:btn1 15s;
+}
+
 @keyframes btn1 {/*这里是对动画的定义，我们只需要定义几个关键帧，它会自动完成补间。*/
 	0% {
 		opacity:0;
@@ -250,6 +260,19 @@
 }
 .link1 {
 	left: 45%;
+	width:160px;
+	height:40px;
+	border:2px solid #fff;
+	-webkit-border:1px solid #fff;
+	border-radius:30px;
+	font-size: 13px;
+	text-align:center;
+	background: #ee9ca7;
+	transition:all 0.8s;
+}
+
+.link2 {
+	left: 36%;
 	width:160px;
 	height:40px;
 	border:2px solid #fff;
